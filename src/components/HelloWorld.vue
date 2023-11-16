@@ -16,7 +16,8 @@ console.log(parser.getResult())
   <div class="greetings">
     <h3>Browser - {{ parser.getBrowser().name }}</h3>
     <h3>Browser Version - {{ parser.getBrowser().version }}</h3>
-    <h3>OS(library) - {{ parser.getOS().name }}</h3>
+    <h3>OS - {{ parser.getOS().name }}</h3>
+    <h3>OS Version - {{ parser.getOS().version }}</h3>
     <h3>Platform - {{ plat }}</h3>
   </div>
 </template>
